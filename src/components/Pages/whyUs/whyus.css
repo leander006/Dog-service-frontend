@@ -1,0 +1,76 @@
+.why-us-upper-1{
+      padding: 40px 200px 0px 200px;
+}
+.why-us-upper-1 h3{
+      font-size: 20px;
+      font-family: 'Fredoka', sans-serif;
+      color: grey;
+}
+
+.why-us-upper-1 h1{
+      font-size: 30px;
+      padding: 20px 0px;
+      font-family: 'Syne Mono', monospace;
+      
+}
+
+.why-us-2 h4, .why-us-3 h4{
+      padding: 10px 0px;
+      font-size: 20px;
+      color: #ff4c68;
+}
+.why-us-2 p ,.why-us-3 p{
+      padding: 20px 0px;
+      color: grey;
+      font-size: 16px;
+}
+.why-us-list h4{
+      font-size: 20px;
+      color: #ff4c68;
+}
+.why-us-list li{
+      list-style: none;
+      padding:10px 0px 0px 50px;
+}
+.why-us-lower{
+      background-color: #ff4c68;
+      padding: 20px 0px;
+}
+
+.why-us-lower li{
+      list-style: none;
+      font-size: 15px;
+      color: white;
+      /* text-align: center; */
+}
+.why-us-lower h1{
+      font-size: 25px;
+      text-align: center;
+      padding-bottom: 20px;
+}
+
+.why-us-lower p{
+      text-align: center;
+      font-size: 15px;
+      padding-bottom: 20px;
+}
+
+.why-us-lower-list {
+      display: flex;
+      justify-content: center;
+      
+}
+.why-us-list-1 li{
+      padding: 20px 20px 0px 20px;
+}
+.why-us-list-2 li{
+      padding: 20px 0px 0px 10px;
+}
+
+
+@media screen and (max-width: 468px)  {
+      .why-us-upper-1{
+            padding: 0px 0px 0px 0px;
+            text-align: center;
+      }
+    }

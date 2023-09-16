@@ -1,0 +1,58 @@
+.card{
+      margin-bottom: 20px;
+      margin-top: 20px;
+      border-radius: 20px;
+      border: 1px solid rgb(55, 55, 56);
+      /* font-family: 'Varela Round', sans-serif; */
+}
+#service-card{
+      background-color: #ff4c68;
+}
+.card-img-top{
+  
+      border-top-left-radius:20px ; 
+      border-top-right-radius: 20px;
+      padding: 10px;
+      height: 230px;
+}
+
+#service-card h1 {
+      text-align: center;
+      font-family: none;
+      font-style: bolder;
+      color:rgb(255, 255, 255);
+      font-size: xx-large;
+}
+#service-card .card-text{
+      color:rgb(255, 254, 254);
+      margin-bottom: 20px;
+}
+.post-button {
+      width: 100px;
+      height: 35px;
+      background-color: rgb(109, 128, 0);
+      border-radius: 20px;
+      color: white;
+}
+
+.post-button .link:hover{
+      color: rgb(1, 148, 148);
+}
+.photo-list {
+      width: 90%;
+      list-style: none;
+      margin: 20px auto;
+}
+   
+.photo-item {
+      display: flex;
+      width: 300px;
+      box-shadow: 0 5px 10px rgb(170, 166, 166);
+      margin: 20px 0;
+}
+ 
+.photo-item img {
+      display: flex;
+      width: 100%;
+      border: 4px double rgb(248, 244, 244);
+}

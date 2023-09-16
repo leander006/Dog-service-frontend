@@ -1,0 +1,121 @@
+.home{
+      padding: 0;
+      margin: 0;
+       /* width: 100vw; */
+      display: flex;
+      flex-direction: column;
+}
+.upper{
+      display: flex;
+      background-color: #ff4c68;
+      justify-content: center;
+      /* height: 300px; */
+}
+.upper img{
+      width: 100vw;
+      height: 400px;
+}
+
+.parallax {
+      /* The image used */
+      background-image: url("../../../../public/photos/homepage.jpeg");
+    
+      /* Set a specific height */
+      min-height: 500px; 
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+.main-1{
+      margin-top: 80px;
+}
+
+#card{
+      border: none;
+      text-align: center;
+      background-color: none;
+}
+.card-title{
+      color: #ff4c68;
+}
+#card img{
+      margin: auto;
+}
+#card p{
+      color: grey;
+}
+
+
+#testimonials h2{
+      padding: 50px;
+}
+#testimonials{
+      height: 400px;
+      text-align: center;
+      background-color: #ff4c68;
+      color: white;
+  }
+  .testimonial-text{
+      font-size: 2rem;
+      line-height: 2rem;
+      text-align: center;
+  }
+  
+  .text-image{
+      width: 10%;
+      border-radius: 100%;
+      margin: auto;
+  }
+  #press{
+      background-color: #ff4c68;
+      padding: 3%;
+  }
+  .press-logo{
+      width: 15%;
+      margin: 10px 10px 20px;
+  }
+
+.main-3{
+      margin-top: 120px;
+      text-align: center;
+      font-size: xx-large;
+     
+}
+.main-3 h1{
+      font-family: 'Smooch Sans', sans-serif;
+      color: grey;
+      font-weight:bolder;
+      font-size: 60px;
+      margin-bottom: 30px;
+}
+/* <!-- Testimonials --> */
+#testimonials{
+      margin-top: 70px;
+    background-color: #ff4c68;
+    color: white;
+}
+.testimonial-text{
+      text-align: center;
+    font-size: 2rem;
+    line-height: 2rem;
+    
+}
+
+.text-image{
+    width: 10%;
+    
+    border-radius: 100%;
+    margin: auto;
+}
+#press{
+    background-color: #ff4c68;
+    padding: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 10px 10px 20px;
+}
+
